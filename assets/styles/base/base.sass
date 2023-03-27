@@ -1,0 +1,38 @@
+*, *:after, *:before
+  box-sizing: border-box 
+  
+html
+  font-size: calc(100vw / 1920 * 10)
+  line-height: 1
+  overflow: hidden
+  overscroll-behavior-y: none
+  min-height: 100%
+
+  -ms-overflow-style: none
+  scrollbar-width: none
+  &::-webkit-scrollbar
+    display: none
+
+  @media(max-width: 300px)
+    font-size: calc(100vw / 750 * 10)
+
+body
+  min-height: 100%
+  font-weight: 300
+  // stop mac from overscolling
+  overscroll-behavior-y: none 
+  
+a
+  text-decoration: none
+  outline: none
+  color: inherit
+
+img
+  vertical-align: middle
+
+button
+  background: none
+  color: inherit
+  cursor: pointer
+  outline: none
+  border: none
