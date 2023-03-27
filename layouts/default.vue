@@ -13,8 +13,8 @@ export default {
 				{
 					hid: 'staticshield',
 					src: 'https://staticshield.vercel.app/script.js',
-					'data-site-id': 'fbe1e7da-d79b-4265-8209-a14f099d838e',
-					'data-cap': 'The password is 123test123',
+					'data-site-id': 'c539b96b-1c50-4ae5-9c84-eb411ad8421d',
+					'data-cap': 'TEstingeee',
 				},
 			],
 		}
