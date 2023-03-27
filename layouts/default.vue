@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="staticshield-div">
 		<NuxtPage></NuxtPage>
 	</div>
 </template>
